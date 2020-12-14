@@ -1,5 +1,5 @@
 # correlation-pytorch-extension
-Custom implementation of Corrlation Module WITHOUT compile.
+Pure python implementation of Corrlation Module WITHOUT compile.
 
 This is a custom implementation of correlation operation. use `corr(...)` to get the result.
 
