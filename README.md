@@ -5,7 +5,7 @@ This is a custom implementation of correlation operation. use `corr(...)` to get
 
 correlation operation can be described as:
 
-![](http://latex.codecogs.com/gif.latex?\\corr(A, B)=C)
+![](http://latex.codecogs.com/gif.latex?\\corr(A,B)=C)
 
 ![](http://latex.codecogs.com/gif.latex?\\c_{bijhw}=\sum_{c}a_{bchw}{\cdot}b_{bch'w'})
 
