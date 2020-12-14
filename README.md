@@ -4,11 +4,12 @@ Custom implementation of Corrlation Module WITHOUT compile.
 This is a custom implementation of correlation operation. use `corr(...)` to get the result.
 
 correlation operation can be described as:
-$$
+
+![](http://latex.codecogs.com/gif.latex?\\
 corr(A, B) = C \\
 c_{bijhw} = \sum_{c}a_{bchw}\cdot b_{bch'w'} \\
 \text{where} \quad h'=h+i; \quad w'=w+j; \quad i,j \in [-k,k]
-$$
+)
 
 - b: batch size
 - c: channel
